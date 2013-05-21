@@ -1,5 +1,8 @@
 AoA Map Viewer
 ==============
+
+http://www.eea.europa.eu/themes/regions/pan-european/virtual-library
+
 The AoA map viewer is a Plone application, that serves an interactive
 map, based on data in the AoA Virtual Library. It queries the Virtual
 Library, receives a JSON dump of the database, and displays a listing of
@@ -10,6 +13,20 @@ The map has several overlays, for countries, groups and regions. This
 corresponds to the AoA representation of geographical coverage. The map
 itself is tiled with several zoom levels, based on a high-resolution PDF
 map. The tiles themselves are not part of this repository.
+
+
+Workflow
+--------
+The app shows a list of reports below the map. Initially this list
+contains all reports. They can be filtered  using the form on the right
+side of the map (text search in title; filter by theme; filter by year)
+and on the map (select one or more countries or regions). Coutry/region
+selection is toggled from the "select on map" drop-down.
+
+The results list can be ordered by upload year of publication or by
+upload date in to the database. Clicking on a report expands the report
+entry to show extra information and changes the map to display the
+report's coverage.
 
 
 Translation
