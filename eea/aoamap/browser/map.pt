@@ -7,9 +7,9 @@
       <div class="jquery-template" style="display: none;" id="country-info">
         <p>
           <img class="country-flag" />
-          <strong>${name}</strong>:
+          <strong tal:content="python:'${name}'"></strong>:
           <tal:t i18n:translate="">
-            <tal:t i18n:name="number-of-assessments">${documents_count}</tal:t>
+            <tal:t i18n:name="number-of-assessments" tal:content="python:'${documents_count}'"></tal:t>
             assessments
           </tal:t>
         </p>
@@ -30,15 +30,15 @@
 
       <div class="jquery-template" style="display: none;" id="region-info">
         <p>
-          <strong>${name}</strong>:
+          <strong tal:content="python:'${name}'"></strong>:
           <tal:t i18n:translate="">
-            <tal:t i18n:name="number-of-assessments">${documents_count}</tal:t>
+            <tal:t i18n:name="number-of-assessments" tal:content="python:'${documents_count}'"></tal:t>
             assessments
           </tal:t>
         </p>
         {{if countries_txt}}
         <p>
-          (${countries_txt})
+          <tal:t replace="python:'(${countries_txt})'" />
         </p>
         {{/if}}
         <p class="link-to-regional-report-box">
@@ -52,9 +52,9 @@
 
       <div class="jquery-template" style="display: none;" id="global-info">
         <p i18n:translate="">
-          As of <tal:t i18n:name="when">${when}</tal:t>,
+          As of <tal:t i18n:name="when" tal:content="python:'${when}'"></tal:t>,
           the virtual library of EE-AoA contains
-          <tal:t i18n:name="number-of-assessments"><strong>${total_documents}</strong></tal:t>
+          <tal:t i18n:name="number-of-assessments"><strong tal:content="python:'${total_documents}' "></strong></tal:t>
           assessments on the thematic areas
           <tal:t i18n:name="green-economy">
             <em i18n:translate="">Green economy</em></tal:t> and
@@ -156,7 +156,7 @@
              id="search-results-document">
           <li class="document">
             <a href="javascript:"
-               class="title">${display_title}</a>
+               class="title" tal:content="python: '${display_title}' "></a>
           </li>
         </div>
       </ul>
@@ -168,12 +168,12 @@
 
       <div class="template-section">
         <strong><tal:t i18n:translate="">Author</tal:t>:</strong>
-        ${author}
+        <tal:t replace="python: '${author}' " />
       </div>
       {{if year}}
       <div class="template-section">
         <strong><tal:t i18n:translate="">Publication year</tal:t>:</strong>
-        ${year}
+        <tal:t replace="python: '${year}' " />
       </div>
       {{/if}}
 
@@ -181,7 +181,7 @@
       <div class="template-section">
         <strong><tal:t i18n:translate="">Coverage (countries)</tal:t>:</strong>
         {{each country}}{{if $index}},
-            {{/if}}${M.config['country_name'][$value]}{{/each}}
+            <tal:t replace="python:  '{{/if}}${M.config[\'country_name\'][$value]}{{/each}}' " />
       </div>
       {{/if}}
 
@@ -189,21 +189,22 @@
       <div class="template-section">
         <strong><tal:t i18n:translate="">Coverage (sub-regions)</tal:t>:</strong>
         {{each region}}{{if $index}},
-          {{/if}}${M.config['region_name'][$value]}{{/each}}
+          <tal:t replace="python: '{{/if}}${M.config[\'region_name\'][$value]}{{/each}}' " />
       </div>
       {{/if}}
 
       <div class="template-section">
         <strong><tal:t i18n:translate="">Themes</tal:t>:</strong>
         {{each theme}}{{if $index}},
-          {{/if}}${M.config['theme_name'][$value]}{{/each}}
+          <tal:t replace="python:  '{{/if}}${M.config[\'theme_name\'][$value]}{{/each}}' " />
       </div>
 
       {{if url}}
       <div class="template-section">
         <strong><tal:t i18n:translate="">Report</tal:t>:</strong>
         <a class="aoa-link-to-report" target="_blank"
-           title="${title}">${M.ellipsis(url, 100)}</a>
+           tal:attributes="title python: '${title}'"
+           tal:content="python: '${M.ellipsis(url, 100)}' "></a>
       </div>
       {{/if}}
 
@@ -231,19 +232,19 @@
       i18n:translate="">Recent assessments</span>
 
     <span class="aoa-i18n" name="published-in-year" i18n:translate=""
-      >published in <tal:t i18n:name="year">${year}</tal:t></span>
+      >published in <tal:t i18n:name="year" tal:content="python: '${year}' "></tal:t></span>
 
     <span class="aoa-i18n" name="about-theme" i18n:translate=""
-      >about <tal:t i18n:name="theme">${theme}</tal:t></span>
+      >about <tal:t i18n:name="theme" tal:content="python: '${theme}' "></tal:t></span>
 
     <span class="aoa-i18n" name="or"
       i18n:translate="">or</span>
 
     <span class="aoa-i18n" name="covering-names" i18n:translate=""
-      >covering <tal:t i18n:name="names">${names}</tal:t></span>
+      >covering <tal:t i18n:name="names" tal:content="python: '${names}' "></tal:t></span>
 
     <span class="aoa-i18n" name="title-contains-pattern" i18n:translate=""
-      >with <tal:t i18n:name="pattern">${pattern}</tal:t> in title</span>
+      >with <tal:t i18n:name="pattern" tal:content="python: '${pattern}' "></tal:t> in title</span>
 
     <span class="aoa-i18n" name="Assessments"
       i18n:translate="">Assessments</span>
