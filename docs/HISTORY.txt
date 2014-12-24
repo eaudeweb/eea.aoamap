@@ -1,9 +1,8 @@
 Changelog
 =========
-[Alex Morega - alex.morega at eaudeweb.ro]
 
-1.5-dev (unreleased)
---------------------
+1.5-dev - (unreleased)
+----------------------
 * Bug fix: Fixed map.pt to work with Chameleon
   [voineali refs #22308]
 
