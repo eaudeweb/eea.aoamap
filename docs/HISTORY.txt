@@ -1,8 +1,8 @@
 Changelog
 =========
 
-1.5-dev - (unreleased)
-----------------------
+1.5 - (2015-01-22)
+------------------
 * Bug fix: Fixed map.pt to work with Chameleon
   [voineali refs #22308]
 
