@@ -20,7 +20,7 @@ Workflow
 The app shows a list of reports below the map. Initially this list
 contains all reports. They can be filtered  using the form on the right
 side of the map (text search in title; filter by theme; filter by year)
-and on the map (select one or more countries or regions). Coutry/region
+and on the map (select one or more countries or regions). Country/region
 selection is toggled from the "select on map" drop-down.
 
 The results list can be ordered by upload year of publication or by
