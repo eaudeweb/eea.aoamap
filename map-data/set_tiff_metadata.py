@@ -23,9 +23,9 @@ def main():
     dataset.SetProjection(ETRS_LAEA.ExportToWkt())
 
     x_0 = -6730000 * af
-    x_1 =  5035000 * af
+    x_1 = 5035000 * af
     y_0 = -2530000 * af
-    y_1 =  5540000 * af
+    y_1 = 5540000 * af
     p_w = (x_1 - x_0) / dataset.RasterXSize
     p_h = (y_1 - y_0) / dataset.RasterYSize
     dataset.SetGeoTransform((x_0, p_w, 0, y_1, 0, -p_h))

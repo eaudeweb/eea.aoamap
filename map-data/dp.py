@@ -25,10 +25,10 @@ import math
 def simplify_points(pts, tolerance):
     """ Simplify points
     """
-    anchor  = 0
+    anchor = 0
     floater = len(pts) - 1
-    stack   = []
-    keep    = set()
+    stack = []
+    keep = set()
 
     stack.append((anchor, floater))
     while stack:
@@ -53,7 +53,7 @@ def simplify_points(pts, tolerance):
             # compare to anchor
             vecX = float(pts[i][0] - pts[anchor][0])
             vecY = float(pts[i][1] - pts[anchor][1])
-            seg_len = math.sqrt( vecX ** 2 + vecY ** 2 )
+            seg_len = math.sqrt(vecX ** 2 + vecY ** 2)
             # dot product:
             proj = vecX * anchorX + vecY * anchorY
             if proj < 0.0:
@@ -62,7 +62,7 @@ def simplify_points(pts, tolerance):
                 # compare to floater
                 vecX = float(pts[i][0] - pts[floater][0])
                 vecY = float(pts[i][1] - pts[floater][1])
-                seg_len = math.sqrt( vecX ** 2 + vecY ** 2 )
+                seg_len = math.sqrt(vecX ** 2 + vecY ** 2)
                 # dot product:
                 proj = vecX * (-anchorX) + vecY * (-anchorY)
                 if proj < 0.0:

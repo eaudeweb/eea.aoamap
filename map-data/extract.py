@@ -13,7 +13,7 @@ gdal.UseExceptions()
 def get_properties(feature, encoding):
     """ Properties
     """
-    fields  = {}
+    fields = {}
     for field in range(feature.GetFieldCount()):
         name = feature.GetFieldDefnRef(field).GetName().decode(encoding)
         value = feature.GetFieldAsString(field).decode(encoding)
@@ -316,8 +316,8 @@ def extract_countries(in_file_path):
 def extract_regions(countries):
     """ Regions
     """
-    geometry_by_country = dict( (f['properties']['name'], f['geometry'])
-                                for f in countries )
+    geometry_by_country = dict((f['properties']['name'], f['geometry'])
+                                for f in countries)
     for region_name, country_names in pick_regions.iteritems():
         polygons = []
         for name in country_names:
