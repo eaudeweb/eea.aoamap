@@ -3,6 +3,8 @@ Changelog
 
 1.6-dev - (unreleased)
 ----------------------
+* Bug fix: Fix pylint warnings
+  [chiridra refs #71940]
 
 1.5 - (2015-01-22)
 ------------------

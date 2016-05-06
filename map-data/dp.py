@@ -21,6 +21,7 @@
 """
 
 import math
+import doctest
 
 def simplify_points(pts, tolerance):
     """ Simplify points
@@ -87,5 +88,4 @@ def simplify_points(pts, tolerance):
     return [pts[j] for j in keep]
 
 if __name__ == "__main__":
-    import doctest
     doctest.testmod()

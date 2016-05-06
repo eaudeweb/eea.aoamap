@@ -8,7 +8,9 @@ except ImportError:
 import urllib
 import logging
 from StringIO import StringIO
-import lxml.html.soupparser, lxml.etree, lxml.cssselect
+import lxml.html.soupparser
+import lxml.etree
+import lxml.cssselect
 from App.config import getConfiguration
 from Products.Five.browser import BrowserView
 from zope.pagetemplate.pagetemplatefile import PageTemplateFile
