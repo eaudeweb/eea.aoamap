@@ -1,8 +1,8 @@
 Changelog
 =========
 
-1.7.dev0 - (unreleased)
------------------------
+1.7 - (2016-11-21)
+------------------
 * Feature: Get AOA_MAP_TILES and AOA_PORTAL_URL also from os.env
   [voineali refs #78653]
 
