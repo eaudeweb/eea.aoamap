@@ -28,7 +28,7 @@ setup(
           "Topic :: Software Development :: Libraries :: Python Modules",
           "License :: OSI Approved :: GNU General Public License (GPL)",
     ],
-    keywords='EEA Add-ons Plone Zope'
+    keywords='EEA Add-ons Plone Zope',
     author='European Environment Agency: IDM2 A-Team',
     author_email='eea-edw-a-team-alerts@googlegroups.com',
     url='https://github.com/eea/eea.aoamap',
