@@ -1,5 +1,7 @@
 AoA Map Viewer
 ==============
+.. image:: http://ci.eionet.europa.eu/job/eea/job/eea.aoamap/job/master/badge/icon
+  :target: http://ci.eionet.europa.eu/job/eea/job/eea.aoamap/job/master/display/redirect
 
 http://www.eea.europa.eu/themes/regions/pan-european/virtual-library
 
