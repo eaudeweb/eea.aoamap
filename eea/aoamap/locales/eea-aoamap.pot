@@ -4,7 +4,7 @@
 msgid ""
 msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
-"POT-Creation-Date: 2011-09-19 14:11+0000\n"
+"POT-Creation-Date: 2017-09-18 10:55+0000\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI +ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
@@ -17,163 +17,162 @@ msgstr ""
 "Preferred-Encodings: utf-8 latin1\n"
 "Domain: eea-aoamap\n"
 
-#: ./browser/map.pt:12
+#: ../../aoamap/browser/map.pt:12
 msgid "${number-of-assessments} assessments"
 msgstr ""
 
-#: ./browser/map.pt:150
+#: ../../aoamap/browser/map.pt:150
 msgid "${spinner} Loading documents"
 msgstr ""
 
-#: ./browser/map.pt:251
+#: ../../aoamap/browser/map.pt:252
 msgid "All-assessments"
 msgstr ""
 
-#: ./browser/map.pt:61
+#: ../../aoamap/browser/map.pt:61
 msgid "As of ${when}, the virtual library of EE-AoA contains ${number-of-assessments} assessments on the thematic areas ${green-economy} and ${water}."
 msgstr ""
 
-#: ./browser/map.pt:66
+#: ../../aoamap/browser/map.pt:66
 msgid "Assessment of Assessments report"
 msgstr ""
 
-#: ./browser/map.pt:248
+#: ../../aoamap/browser/map.pt:249
 msgid "Assessments"
 msgstr ""
 
-#: ./browser/map.pt:170
+#: ../../aoamap/browser/map.pt:170
 msgid "Author"
 msgstr ""
 
-#: ./browser/map.pt:65
+#: ../../aoamap/browser/map.pt:65
 msgid "Browse the ${link-browse-report}."
 msgstr ""
 
-#: ./browser/map.pt:78
+#: ../../aoamap/browser/map.pt:78
 msgid "Country"
 msgstr ""
 
-#: ./browser/map.pt:21
+#: ../../aoamap/browser/map.pt:21
 msgid "Country Fiches, produced by the national appointed authorities on theme: ${link-cf-green-economy}, ${link-cf-water}"
 msgstr ""
 
-#: ./browser/map.pt:182
+#: ../../aoamap/browser/map.pt:182
 msgid "Coverage (countries)"
 msgstr ""
 
-#: ./browser/map.pt:190
+#: ../../aoamap/browser/map.pt:190
 msgid "Coverage (sub-regions)"
 msgstr ""
 
-#: ./browser/map.pt:221
+#: ../../aoamap/browser/map.pt:222
 msgid "Geographic level"
 msgstr ""
 
-#: ./browser/map.pt:19
+#: ../../aoamap/browser/map.pt:19
 msgid "Green economy"
 msgstr ""
 
-#: ./browser/map.pt:227
+#: ../../aoamap/browser/map.pt:228
 msgid "No results were found for this query"
 msgstr ""
 
-#: ./browser/map.pt:80
+#: ../../aoamap/browser/map.pt:80
 msgid "Pan-European"
 msgstr ""
 
-#: ./browser/map.pt:175
+#: ../../aoamap/browser/map.pt:175
 msgid "Publication year"
 msgstr ""
 
-#: ./browser/map.pt:230
+#: ../../aoamap/browser/map.pt:231
 msgid "Recent assessments"
 msgstr ""
 
-#: ./browser/map.pt:204
+#: ../../aoamap/browser/map.pt:204
 msgid "Report"
 msgstr ""
 
-#: ./browser/map.pt:123
+#: ../../aoamap/browser/map.pt:123
 msgid "Reset"
 msgstr ""
 
-#: ./browser/map.pt:120
+#: ../../aoamap/browser/map.pt:120
 msgid "Search"
 msgstr ""
 
-#: ./browser/map.pt:26
+#: ../../aoamap/browser/map.pt:26
 msgid "See more"
 msgstr ""
 
-#: ./browser/map.pt:76
+#: ../../aoamap/browser/map.pt:76
 msgid "Select on map"
 msgstr ""
 
-#: ./browser/map.pt:79
+#: ../../aoamap/browser/map.pt:79
 msgid "Sub-region"
 msgstr ""
 
-#: ./browser/map.pt:99
+#: ../../aoamap/browser/map.pt:99
 msgid "Theme"
 msgstr ""
 
-#: ./browser/map.pt:197
+#: ../../aoamap/browser/map.pt:197
 msgid "Themes"
 msgstr ""
 
-#: ./browser/map.pt:224
+#: ../../aoamap/browser/map.pt:225
 msgid "There was an error loading the list of documents."
 msgstr ""
 
-#: ./browser/map.pt:89
+#: ../../aoamap/browser/map.pt:89
 msgid "Title"
 msgstr ""
 
-#: ./browser/map.pt:214
+#: ../../aoamap/browser/map.pt:215
 msgid "Upload date"
 msgstr ""
 
-#: ./browser/map.pt:134
+#: ../../aoamap/browser/map.pt:134
 msgid "Upload new assessment"
 msgstr ""
 
-#: ./browser/map.pt:22
+#: ../../aoamap/browser/map.pt:22
 msgid "Water"
 msgstr ""
 
-#: ./browser/map.pt:103
+#: ../../aoamap/browser/map.pt:103
 msgid "Water + Green economy"
 msgstr ""
 
-#: ./browser/map.pt:115
+#: ../../aoamap/browser/map.pt:115
 msgid "Year"
 msgstr ""
 
-#: ./browser/map.pt:237
+#: ../../aoamap/browser/map.pt:238
 msgid "about ${theme}"
 msgstr ""
 
-#: ./browser/map.pt:243
+#: ../../aoamap/browser/map.pt:244
 msgid "covering ${names}"
 msgstr ""
 
-#: ./browser/map.pt:239
+#: ../../aoamap/browser/map.pt:240
 msgid "or"
 msgstr ""
 
-#: ./browser/map.pt:254
+#: ../../aoamap/browser/map.pt:255
 msgid "ordered by"
 msgstr ""
 
-#: ./browser/map.pt:234
+#: ../../aoamap/browser/map.pt:235
 msgid "published in ${year}"
 msgstr ""
 
-#: ./browser/map.pt:45
+#: ../../aoamap/browser/map.pt:45
 msgid "regional report"
 msgstr ""
 
-#: ./browser/map.pt:246
+#: ../../aoamap/browser/map.pt:247
 msgid "with ${pattern} in title"
 msgstr ""
-
