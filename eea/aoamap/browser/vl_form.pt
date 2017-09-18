@@ -7,7 +7,7 @@
 
   <div metal:fill-slot="main">
 
-    <h1>Submit assessment to Virtual Library</h1>
+    <h1 i18n:translate="">Submit assessment to Virtual Library</h1>
 
     <!--
     <tal:block content="structure python:view.get_aoa_form_html()"/>

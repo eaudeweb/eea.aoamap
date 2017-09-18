@@ -26,14 +26,14 @@
 </head>
 
 <body>
-<h1>Import documents from AoA portal</h1>
+<h1 i18n:translate="">Import documents from AoA portal</h1>
 
 <form method="post" action=".import_from_aoa.submit"
       tal:define="aoa_data view/aoa_data">
 
-  <label>
+  <label i18n:translate="">
     Timestamp for country fiches:
-    <input name="date" tal:attributes="value string:02/09/2011"/>
+    <input name="date" tal:attributes="value string:02/09/2011" i18n:name="date" />
   </label><br/>
 
   <input type="submit"/>
@@ -42,7 +42,7 @@
     <thead>
       <tr>
         <th></th>
-        <th>Region information</th>
+        <th i18n:translate="">Region information</th>
       </tr>
     </thead>
     <tbody>
@@ -61,9 +61,9 @@
     <thead>
       <tr>
         <th class="document-all"></th>
-        <th class="document-wa">Water fiche</th>
-        <th class="document-ge">Green economy fiche</th>
-        <th class="document-cp">Country profile</th>
+        <th class="document-wa" i18n:translate="">Water fiche</th>
+        <th class="document-ge" i18n:translate="">Green economy fiche</th>
+        <th class="document-cp" i18n:translate="">Country profile</th>
       </tr>
     </thead>
     <tbody>
