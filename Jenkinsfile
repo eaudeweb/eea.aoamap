@@ -58,6 +58,8 @@ pipeline {
               script {
                 try {
                   sh '''docker run -i --net=host --name="$BUILD_TAG-jslint" -e GIT_SRC="https://github.com/eea/$GIT_NAME.git --branch=$BRANCH_NAME" eeacms/jslint4java'''
+                } catch (err) {
+                  echo "Unstable: ${err}"
                 } finally {
                   sh '''docker rm -v $BUILD_TAG-jslint'''
                 }
