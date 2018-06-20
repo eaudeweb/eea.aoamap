@@ -128,7 +128,7 @@ M.regional_report_url = function(code) {
     'russian-federation': "russian-federation-assessment-of-assessment-report"
   };
   if(! slug_by_region[code]) return null;
-  return "http://www.eea.europa.eu/themes/regions/pan-european/" +
+  return "https://www.eea.europa.eu/themes/regions/pan-european/" +
          "sub-regional-assessment-of-assessment-reports/" +
          slug_by_region[code];
 };
