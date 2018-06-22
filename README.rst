@@ -1,9 +1,13 @@
 AoA Map Viewer
 ==============
-.. image:: http://ci.eionet.europa.eu/job/eea/job/eea.aoamap/job/master/badge/icon
-  :target: http://ci.eionet.europa.eu/job/eea/job/eea.aoamap/job/master/display/redirect
+.. image:: https://ci.eionet.europa.eu/buildStatus/icon?job=eea/eea.aoamap/develop
+  :target: https://ci.eionet.europa.eu/job/eea/job/eea.aoamap/job/develop/display/redirect
+  :alt: Develop
+.. image:: https://ci.eionet.europa.eu/buildStatus/icon?job=eea/eea.aoamap/master
+  :target: https://ci.eionet.europa.eu/job/eea/job/eea.aoamap/job/master/display/redirect
+  :alt: Master
 
-http://www.eea.europa.eu/themes/regions/pan-european/virtual-library
+https://www.eea.europa.eu/themes/regions/pan-european/virtual-library
 
 The AoA map viewer is a Plone application, that serves an interactive
 map, based on data in the AoA Virtual Library. It queries the Virtual

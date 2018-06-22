@@ -64,7 +64,7 @@
           Browse the
           <tal:t i18n:name="link-browse-report">
             <a i18n:translate=""
-               href="http://www.eea.europa.eu/publications/europes-environment-aoa"
+               href="https://www.eea.europa.eu/publications/europes-environment-aoa"
                target="_blank">Assessment of Assessments report</a></tal:t>.
         </p>
       </div>
