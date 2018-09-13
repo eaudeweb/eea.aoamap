@@ -38,6 +38,6 @@ setup(
     zip_safe=False,
     install_requires=[
       'lxml',
-      'BeautifulSoup',
+      'beautifulsoup4',
     ]
 )
